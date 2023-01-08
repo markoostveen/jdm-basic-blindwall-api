@@ -31,8 +31,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("com.h2database:h2")
     annotationProcessor("org.projectlombok:lombok")
-    implementation ("org.slf4j:slf4j-simple:2.0.5")
-    implementation("io.github.microutils:kotlin-logging:1.5.9")
+    implementation("io.github.microutils:kotlin-logging:3.0.4")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
